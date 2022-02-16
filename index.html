@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .card-body a {
+        margin: 0.2rem !important;
+      }
+    </style>
+
+    <title>Catcademy</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container px-lg-5">
+        <a class="navbar-brand" href="#">Catcademy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Learning Journey</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-dark text-light">
+      <div class="container px-lg-5">
+        <div class="d-md-flex align-items-center justify-content-between">
+          <div>
+            <h2 class="mb-3">Become a <span class="text-warning">Cat</span></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              laborum voluptatibus harum, eligendi reiciendis molestiae sed
+              ratione quasi earum. Nam.
+            </p>
+            <a href="javascript:;" class="btn btn-primary"
+              >Start the Enrolment</a
+            >
+          </div>
+          <img class="img-fluid" src="./img/sushi.png" alt="sushi" />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-warning text-light">
+      <div class="container p-lg-5">
+        <div class="d-lg-flex align-items-center justify-content-between">
+          <h4>Sign Up For Our Mewsletter</h4>
+          <div class="input-group" style="width: 50%">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button class="btn btn-dark btn-lg" type="button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light text-dark">
+      <div class="container p-lg-5">
+        <div class="d-xl-flex align-items-center justify-content-between">
+          <img class="img-fluid" src="./img/cat.png" alt="sushi" />
+          <div class="p-5 m-5">
+            <h2 class="mb-3">Sleep 18 hours</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              eaque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+              repellat repudiandae voluptatibus, nostrum fuga eum molestias illo
+              expedita qui perspiciatis dolor ex neque natus assumenda, minima
+              accusamus officia quis at modi dicta commodi dolores numquam amet.
+              In explicabo tempora sequi!
+            </p>
+            <a href="javascript:;" class="btn btn-secondary mt-3"
+              ><i class="bi bi-chevron-right"></i> Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-light">
+      <div class="container p-lg-5">
+        <div class="d-xl-flex align-items-center justify-content-between">
+          <div>
+            <h2 class="mb-3">Meow All Night</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              eaque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+              repellat repudiandae voluptatibus, nostrum fuga eum molestias illo
+              expedita qui perspiciatis dolor ex neque natus assumenda, minima
+              accusamus officia quis at modi dicta commodi dolores numquam amet.
+              In explicabo tempora sequi!
+            </p>
+            <a href="javascript:;" class="btn btn-light mt-3"
+              ><i class="bi bi-chevron-right"></i> Read More</a
+            >
+          </div>
+          <img class="img-fluid" src="./img/fish.png" alt="sushi" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container p-lg-5">
+        <h2 class="text-center display-6 mb-3">Frequently Asked Questions</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-warning text-light text-center">
+      <div class="container p-lg-5">
+        <h3>Our Instructors</h3>
+        <p class="mb-5">
+          Our instructors all have 5+ years of pooping on grasses while licking
+          their paws experience.
+        </p>
+        <p></p>
+        <div class="row">
+          <div class="col">
+            <div class="card text-dark pt-3">
+              <img src="./img/kitty-1.png" class="rounded-circle px-5" alt="" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Tuna</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit distinctio sapiente dolore saepe corrupti animi.
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-dark pt-3">
+              <img src="./img/kitty-2.png" class="rounded-circle px-5" alt="" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Koshka</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit distinctio sapiente dolore saepe corrupti animi.
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-dark pt-3">
+              <img src="./img/kitty-3.png" class="rounded-circle px-5" alt="" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Meo</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit distinctio sapiente dolore saepe corrupti animi.
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-dark pt-3">
+              <img src="./img/kitty-4.png" class="rounded-circle px-5" alt="" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Ziggy</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit distinctio sapiente dolore saepe corrupti animi.
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container p-lg-5">
+        <div class="row">
+          <div class="col">
+            <h2 class="mb-3 text-center">Contact Info</h2>
+            <p class="border-bottom">
+              <span class="fw-bold">Main Location: </span>Danboru
+            </p>
+            <p class="border-bottom">
+              <span class="fw-bold">Phone: </span>(555)-555-5555
+            </p>
+            <p class="border-bottom">
+              <span class="fw-bold">Email: </span>purr@rubmybelly.com
+            </p>
+          </div>
+          <div class="col">
+            <div id="map" style="width: 100%; height: 100%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light">
+      <div class="container p-5 text-center">
+        <p>Copyright &copy; 2022 Catcademy</p>
+      </div>
+    </footer>
+
+    <!-- to display the map -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js"></script>
+    <script>
+      L.mapbox.accessToken =
+        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw';
+      var map = L.mapbox
+        .map('map')
+        .setView([33.7362, 132.4818], 14)
+        .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
+    </script>
+  </body>
+</html>
